@@ -39,6 +39,27 @@
   .icon_box .icon_1:hover img {
       transform: scale(1.2); /* Enlarge the icon on hover */
   }
+  .banner_main {
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+.float-bob-y {
+  animation: floatAnimation 3s infinite ease-in-out;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -1000;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
   </style>
    <body>
       <!--header section start -->
@@ -46,7 +67,7 @@
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="logo">
                <a href="index.html">
-                   <img src="./images/logo2.png" alt="Afras.co Logo">
+                   <img src="./images/logo.png" alt="Afras.co Logo">
                </a>
            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -155,6 +176,11 @@
          </div>
       </div>
       <!--about section end -->
+      <div class="row">
+         <div class="col-12 text-center">
+            <img width="732" height="250" src="https://www.rent-co.org/assets/website/images/resources/main-slider-three-car.svg" alt="" class="float-bob-y">
+         </div>
+      </div>
       <!-- services section start -->
       <div class="services_section layout_padding">
          <div class="container">
@@ -352,11 +378,16 @@
                <div class="row">
                   <div class="col-lg-4">
                      <h2 class="footer_taital">About</h2>
-                     <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority havThere are many variations of passages of Lorem Ipsum available, but the majority hav</p>
+                     <p class="footer_text">Afras was set up in 1976 to compete for building, and hospital operation and maintenance contracts in the central region of the Kingdom of Saudi Arabia.</p>
                   </div>
                   <div class="col-lg-4">
                      <h2 class="footer_taital">Services Link</h2>
-                     <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority havThere are many variations of passages of Lorem Ipsum available, but the majority hav</p>
+                     <a class="footer_text" href="./Services/Compactors.html">compactors</a>
+                     <a class="footer_text" href="./Services/Wastewater.html">Waste water</a>
+                     <a class="footer_text" href="./Services/Compactors.html">Hazardous matrials</a>
+                     <a class="footer_text" href="./Services/Compactors.html">Recycling</a>
+                     <a class="footer_text" href="./Services/Compactors.html">Maintenance logistics</a>
+                     <a class="footer_text" href="./Services/Wastebin.html">Waste bins</a>
                   </div>
                   <div class="col-lg-4">
                      <div class="social_icon">
