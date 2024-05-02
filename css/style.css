@@ -648,7 +648,7 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #7bbf7b; /* Green color */
+    background: #13a25d; /* Green color */
     border-radius: 20px; /* half of the width to make it oval-shaped */
 }
 
@@ -663,9 +663,10 @@ button {
 }
 
 ::-moz-scrollbar-thumb {
-    background: #7bbf7b; /* Green color */
+    background: #13a25d; /* Green color */
     border-radius: 20px; /* half of the width to make it oval-shaped */
 }
+
 
 /* contact section start */
 
