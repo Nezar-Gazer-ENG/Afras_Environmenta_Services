@@ -638,6 +638,35 @@ button {
 
 /* events section end */
 
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 20px; /* half of the width to make it oval-shaped */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7bbf7b; /* Green color */
+    border-radius: 20px; /* half of the width to make it oval-shaped */
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+    width: 10px;
+    border-radius: 20px; /* half of the width to make it oval-shaped */
+}
+
+::-moz-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-moz-scrollbar-thumb {
+    background: #7bbf7b; /* Green color */
+    border-radius: 20px; /* half of the width to make it oval-shaped */
+}
+
 /* contact section start */
 
 .contact_section {
