@@ -226,7 +226,6 @@ button {
     float: right;
     background-image: url(../images/image_extended.jpg);
     height: auto;
-    background-size: contain; /* Change from 100% to contain */
     background-repeat: no-repeat;
 }
 
