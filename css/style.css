@@ -226,6 +226,7 @@ button {
     float: right;
     background-image: url(../images/image_extended.jpg);
     height: auto;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
