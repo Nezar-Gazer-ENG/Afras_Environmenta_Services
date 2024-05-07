@@ -224,7 +224,7 @@ button {
 .header_section {
     width: 100%;
     float: right;
-    background-image: url(../../images/image_extended.jpg);
+    background-image: url(../images/image_extended.jpg);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
